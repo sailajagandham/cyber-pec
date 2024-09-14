@@ -3,22 +3,207 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Analog and Digital Clock</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Sailaja Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url(https://wallpapercave.com/wp/wp8022673.jpg); 
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #ffffff;
+            background-attachment: fixed;
+        }
+        nav {
+            background:transparent;
+            padding: 10px 20px;
+            display: flex;
+            justify-content:flex-start ;
+            position: fixed;
+            width: 100%;
+            top: 0;
+           
+           
+           
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            transition: color 0.4s;
+        }
+        nav a:hover {
+            color: #000000;
+        }
+        .container {
+            text-align: center;
+            padding: 150px 20px 100px; 
+        }
+        h2{
+            font-size: 2px;
+            margin: 0;
+            color: #ffffff;
+            font-size: xx-large;
+        }
+        h3 {
+            font-size: 1.3;
+            margin: 10px 0;
+            color: #19ffff;
+        }
+        p {
+            max-width: 600px;
+            margin: 20px auto;
+            line-height: 1.6;
+        }
+        footer {
+            background:transparent;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+       
+        section {
+            padding: 20px;
+            margin: 20px;
+            background:transparent;
+            border-radius: 8px;
+            box-shadow: 0 0 20px   rgba(0, 0, 0, 1);
+        }
+        
+      
+        
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        ul li {
+            background: transparent;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 4px;
+            width: 200px;
+            margin-left: auto;
+            margin-right: auto;
+            color: #00ffff;
+            
+        }
+               
+        .self{
+            color: #19ffff;
+            font-size: 1.1em;
+        }
+        .section {
+    padding: 20px;
+    margin: 20px;
+    background:transparent;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+
+
+.course {
+    margin-bottom: 20px;
+}
+
+.course h3 {
+    margin: 0;
+    color: #ffffff;
+}
+
+.course p {
+    margin: 5px 0;
+    color: #00ffff;
+}
+.contact-section {
+    text-align: center;
+    padding: 50px;
+}
+.contact-section h2 {
+    margin-bottom: 20px;
+}
+.social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #000;
+    font-size: 30px;
+}
+.social-icons a:hover {
+    opacity: 0.7;
+}
+
+      
+ 
+        
+    </style>
 </head>
 <body>
+    <section style="box-shadow: none;" id="gg"></section>
+   <div class="nav">
+    <nav>
+        <a  href="#gg">HOME</a>
+        <a href="#about-me">ABOUT ME</a>
+        <a href="#education">EDUCATION</a>
+        <a href="#contact">CONTACT</a>
+    </nav>
+</div>
     <div class="container">
-        <div class="clock analog-clock">
-            <div class="clock-face">
-                <div class="hand hour-hand"></div>
-                <div class="hand minute-hand"></div>
-                <div class="hand second-hand"></div>
-            </div>
+        <h2 class="name">Sailaja Gandham </h2>
+        <h3>SOFTWARE DEVELOPER</h3>
+        <p>As a passionate and dedicated software developer, I specialize in creating efficient, scalable, and user-friendly software solutions. With a strong foundation in computer science and hands-on experience in various programming languages, I am committed to delivering high-quality code and innovative solutions</p>
+    </div>
+    <section id="about-me">
+        <h2>About Me</h2>
+        <p class="self">Hello! I’m Sailaja Gandham, a recent graduate in Computer Science and Engineering from JNTUK. With a strong foundation in programming languages such as Java, Python, and HTML/CSS, I am passionate about developing innovative software solutions. During my academic journey, I have worked on various projects, including [mention a notable project or two], which have honed my problem-solving and coding skills.
+
+            I am particularly interested in software development and have a keen interest in  web development, AI, machine learning. My goal is to leverage my technical expertise and creativity to contribute to impactful projects and collaborate with a dynamic team.
+            
+            In addition to my technical skills, I am a proactive learner and enjoy staying updated with the latest industry trends. </p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <div class="section">
+        <div class="course">
+            <h3>Bachelor's of Technology in Computer Science</h3>
+            <p>Prakasam Engineering college, 2021 - 2025</p>
+            <p>GPA: 70%</p>
         </div>
-        <div class="clock digital-clock">
-            <div id="digital-time"></div>
+        <div class="course">
+            <h3>Board of Intermidiate</h3>
+            <p>Governement Junior College, 2019 - 2021</p>
+            <p>GPA: 67%</p>
         </div>
     </div>
-    <script src="script.js"></script>
+    </section>
+    <section id="skills-interests">
+        <h2>Skill & Interest</h2>
+        <ul>
+            <li>c language</li>
+            <li>Java full Stack</li>
+            <li>Web Design</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="contact-section">
+        <div class="social-icons">
+            <a href="https://github.com/sailajagandham" class="fa fa-github"></a>
+            <a href="mailto:sailajagandham5@gmail.com" class="fa fa-envelope"></a>
+            <a href="https://www.instagram.com/sailajagandham2" class="fa fa-instagram"></a>
+        </div>
+    </div>
+    </section>
+    <footer>
+        PORTFOLIO 2024
+    </footer>
 </body>
 </html>
